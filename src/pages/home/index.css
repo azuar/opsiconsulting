@@ -1,0 +1,47 @@
+.jumbotron {
+  background: url("https://ideatax.my.canva.site/opsi-consulting/media/467c4cf0accf407c0ce207216a6ef202.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  color: white;
+}
+
+.text-jumbotron {
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.card-tagline {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  background-color: #e8e3e3;
+}
+
+.card-tagline :hover {
+  background-color: #0071bc;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #0071bc89;
+}
+
+.card-layanan {
+  box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.2);
+  border: 2px solid lightgray;
+  border-radius: 20px;
+}
+
+.contact-content {
+  padding-inline: 60px;
+}
+
+.contact-content > hr {
+  border: 1.5px solid black;
+}
+
+.imageFlip {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  margin-top: -150px;
+}

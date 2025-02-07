@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  background-color: white;
+  height: 80px;
+  width: 100%;
+}
+
+.ant-steps-item-title {
+  color: black !important;
+  font-size: 18px !important;
+}
+
+.ant-steps-item-icon {
+  font-size: 20px !important;
+  width: 40px !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  margin-inline-start: 50px !important;
+}
+
+.ant-steps-item-content {
+  width: 140px !important;
+}
+
+.ant-steps-item-tail {
+  margin-inline-start: 69px !important;
+}
