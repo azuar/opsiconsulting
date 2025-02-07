@@ -21,7 +21,7 @@ const Home = () => {
     },
 
     {
-      icon: "https://cdn.creazilla.com/icons/7832020/clock-icon-md.png",
+      icon: "https://cdn-icons-png.flaticon.com/512/899/899054.png",
       content: "Tidak Punya Waktu untuk Melakukan Pelaporan Pajak",
     },
     {
