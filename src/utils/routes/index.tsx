@@ -4,7 +4,7 @@ import {
   Route,
 } from "react-router-dom";
 import Home from "../../pages/home";
-import MainLayout from "../../component/mainlayout";
+import MainLayout from "../../component/main-layout";
 
 const Routes = () => {
   return (

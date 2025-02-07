@@ -44,4 +44,12 @@
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   margin-top: -150px;
+  @media (max-width: 1020px) {
+    display: none;
+  }
+}
+
+.image-tentang {
+  width: 100%;
+  height: auto;
 }

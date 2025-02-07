@@ -132,7 +132,7 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div
-              className="col-md-6 d-flex align-items-center"
+              className="col-lg-6 d-flex align-items-center"
               style={{ height: "650px" }}
             >
               <div className="row">
@@ -158,7 +158,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 text-center">
+            <div className="col-lg-6 text-center">
               <img
                 src="https://ideatax.my.canva.site/opsi-consulting/media/b016e5c353bfe1284d4593c47750765e.png"
                 alt=""
@@ -176,7 +176,7 @@ const Home = () => {
           </h1>
           <div className="row mt-5">
             {taglineSolution.map((item, _index) => (
-              <div className="col-md-4 mb-4">
+              <div className="col-lg-4 mb-4">
                 <Card className="card-tagline">
                   <div className="row">
                     <div className="col-3">
@@ -208,21 +208,21 @@ const Home = () => {
             <h1 className="fw-bolder mb-4">Tentang Kami</h1>
           </div>
           <div className="row">
-            <div className="col-md-6 text-center mt-3">
+            <div className="col-lg-6 text-center mt-3">
               <img
                 src="https://bmginstitute.com/wp-content/uploads/2024/05/Procurement-Negotiation-Contracting-Strategy.webp"
                 alt="img"
-                height={360}
+                className="image-tentang"
               />
               <Button
                 type="primary"
-                className="bg-warning text-dark mt-3 p-4"
+                className="bg-warning text-dark mt-3 p-4 mb-4"
                 size="large"
               >
                 Konsultasi <span className="fw-bold">GRATIS</span> Sekarang
               </Button>
             </div>
-            <div className="col-md-6 fs-5">
+            <div className="col-lg-6 fs-5">
               <p>
                 <span style={{ color: "#2561B2", fontWeight: 600 }}>
                   Opsi Consulting
@@ -262,9 +262,9 @@ const Home = () => {
             <h1 className="fw-bold mb-4">Layanan Kami</h1>
           </div>
           <h2 className="text-center my-4">Pilih layanan yang Anda butuhkan</h2>
-          <div className="row mt-5 px-5">
+          <div className="row mt-5">
             {layanan.map((item, _index) => (
-              <div className="col-md-4 mb-4 px-4">
+              <div className="col-lg-4 mb-4">
                 <Card className="card-layanan">
                   <h5 className="text-center ">{item.title}</h5>
                   <hr />
@@ -331,7 +331,7 @@ const Home = () => {
       <div className="contact mt-5" id="kontak">
         <div className="container">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-lg-6">
               <div className="d-flex">
                 <img
                   src="logo-icon.png"
@@ -358,7 +358,7 @@ const Home = () => {
                 <hr />
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-lg-6">
               <Card
                 style={{
                   backgroundColor: "#0071BC",
@@ -367,19 +367,19 @@ const Home = () => {
               >
                 <h4 className="text-center">Jadwalkan Konsultasi</h4>
                 <div className="row mt-5">
-                  <div className="col-md-6 mb-4">
+                  <div className="col-lg-6 mb-4">
                     <Input placeholder="Nama" size="large" />
                   </div>
-                  <div className="col-md-6 mb-4">
+                  <div className="col-lg-6 mb-4">
                     <Input placeholder="Telp." size="large" />
                   </div>
-                  <div className="col-md-6 mb-4">
+                  <div className="col-lg-6 mb-4">
                     <Input placeholder="Perusahaan" size="large" />
                   </div>
-                  <div className="col-md-6 mb-4">
+                  <div className="col-lg-6 mb-4">
                     <Input placeholder="Email" size="large" />
                   </div>
-                  <div className="col-md-12 mb-4">
+                  <div className="col-lg-12 mb-4">
                     <Select
                       style={{ width: "100%" }}
                       size="large"
@@ -391,14 +391,14 @@ const Home = () => {
                       ]}
                     />
                   </div>
-                  <div className="col-md-12 mb-4">
+                  <div className="col-lg-12 mb-4">
                     <DatePicker
                       placeholder="Jadwalkan Meeting"
                       size="large"
                       style={{ width: "100%" }}
                     />
                   </div>
-                  <div className="col-md-12 mb-4">
+                  <div className="col-lg-12 mb-4">
                     <TextArea
                       placeholder="Jelaskan Permasalahan Anda"
                       size="large"
