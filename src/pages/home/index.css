@@ -26,20 +26,6 @@
   box-shadow: 10px 10px 10px #0071bc89;
 }
 
-.card-layanan {
-  box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.2);
-  border: 2px solid lightgray;
-  border-radius: 20px;
-}
-
-.contact-content {
-  padding-inline: 60px;
-}
-
-.contact-content > hr {
-  border: 1.5px solid black;
-}
-
 .imageFlip {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
@@ -47,9 +33,4 @@
   @media (max-width: 1020px) {
     display: none;
   }
-}
-
-.image-tentang {
-  width: 100%;
-  height: auto;
 }

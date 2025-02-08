@@ -1,0 +1,41 @@
+.prosedur {
+  margin-top: 6em;
+}
+
+/* @media (max-width: 1020px) {
+  .mobile {
+    display: none;
+  }
+} */
+
+@media (min-width: 1020px) {
+  .mobile {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1020px) {
+  .desktop {
+    display: none !important;
+  }
+}
+
+.card-body > h2 {
+  background-color: #0071bcc4;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 8px;
+}
+/* .card {
+  height: 220px;
+} */
+
+@media (min-width: 576px) {
+  .card {
+    height: 220px;
+  }
+}

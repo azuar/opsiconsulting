@@ -1,0 +1,17 @@
+.contact {
+  margin-top: 6em;
+}
+
+.contact-content {
+  padding-inline: 60px;
+}
+
+.contact-content > hr {
+  border: 1.5px solid black;
+}
+
+@media (max-width: 480px) {
+  .contact-content {
+    padding-inline: 10px;
+  }
+}
